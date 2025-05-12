@@ -19,6 +19,9 @@ if __name__ == '__main__':
 
 # flask --app main.py --debug run
 
+# git commit -am "Updated code" && git push origin main
+
+
 
 
 
