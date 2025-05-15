@@ -37,4 +37,12 @@ class user_model():
             return "user updated successfully"
         else:
             return "failed to update"
+    
 
+    def user_deleteuser(self,id):
+        self.cur.execute(f"DELETE FROM users WHERE id = {id}")
+        if self.cur.rowcount>0:
+            return "user deleted successfully"
+        else:
+            return "Nothing to delete"
+    
